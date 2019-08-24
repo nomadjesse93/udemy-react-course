@@ -1,11 +1,10 @@
 import React from 'react';
 import UserInput from './UserInput'
-
 const paragraphs = (props) => {
     return (
         <div>
             <h1>{props.username}</h1>
-            <UserInput username={props.username} newUserName={props.newUserName} />
+            <UserInput username={props.username} newUserName={props.newUserName} length={props.length} />
             <p>
                 Create TWO new components: UserInput and UserOutput
     UserInput should hold an input element, UserOutput two paragraphs
